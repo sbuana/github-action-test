@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Astrox 100 ZZ"
+        run: 
+          echo "Astrox 100 ZZ"
+          cat rackets.txt
       - name: multiline script
         run:
           node -v
