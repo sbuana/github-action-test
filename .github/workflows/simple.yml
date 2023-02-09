@@ -10,6 +10,7 @@ jobs:
         run: 
           echo "Astrox 100 ZZ"
       - name : display a file    
+        run:  
           cat rackets.txt
       - name: multiline script
         run:
